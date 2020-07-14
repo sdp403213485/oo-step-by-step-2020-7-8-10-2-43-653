@@ -15,8 +15,20 @@ public class Teacher extends Person {
         this.job = job;
     }
 
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
     @Override
     public String introduce() {
         return super.introduce() + "I am a Teacher.";
+    }
+
+    public String Message(){
+        return "My name is Tom. I am 21 years old. I am a student of Class 2 now.";
     }
 }
