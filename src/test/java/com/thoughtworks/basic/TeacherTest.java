@@ -4,15 +4,15 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class StudentTest {
+public class TeacherTest {
     @Test
     public void shouldReturnStudentIntroduce_test() {
         //given
-        Student student = new Student();
+        Teacher teacher= new Teacher();
 
         //when
-        String actual = student.introduce();
+        String actual = teacher.introduce();
         //then
-        assertEquals(actual,"My name is Tom. I am 21 years old.I am a Student of Class 2.");
+        assertEquals(actual,"My name is Tom. I am 21 years old.I am a Teacher.");
     }
 }
